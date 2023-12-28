@@ -3,7 +3,7 @@
 ## 🐕 Why Rq-Dogs?
 - Makes use of rope natives to create a realistic dog lead with adjustable length
 - Unique, realistic walking/running with the dog - Hold the dog on the lead and it walks infront of you or make it heel and it'll walk next to you
-- Highly configurable - Preview the [language]() and [config]() files
+- Highly configurable - Preview the [language](https://github.com/Rqver/Dogs-CFG/blob/main/shared/sh_lang.lua) and [config](https://github.com/Rqver/Dogs-CFG/blob/main/shared/sh_main.lua) files
 - Standalone, QB-Core, QBX-Core, ESX & ND Core Support for job/grade restrictions (Available in an unlocked file)
 - QB-Core, QBX-Core and ESX support for using items to spawn/remove a dog (Available in an unlocked file)
 - Ability to use ace permissions, radio channels, authorized jobs/ranks or custom checks to allow access to dogs
