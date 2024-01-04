@@ -41,3 +41,15 @@ Lang.FoundScent = "Your dog found a scent!\nRun /dctrack at any time to cancel t
 Lang.StoppedTracking = "Successfully stopped tracking!" -- The message sent to a player when they cancel a track.
 Lang.DistanceWarning = "If the dog doesn\'t immediately start running, the offender is too far away.\nThis is a restriction of GTA - Get closer to the civ or get the civ to come closer." -- The message sent to a player when they start tracking a player.
 
+---
+--- Searching Notifications
+---
+Lang.SearchModeDisabled = "This mode of searching has been disabled by the server!" -- The message sent to a player when they run /dsearch and specify a searching mode not enabled in sh_main.
+Lang.NoTarget = "Please specify what you would like to search! /dsearch <drop|player|vehicle>" -- The message sent to a player when they run /dsearch and either don't specify any arguments, or specify invalid arguments.
+Lang.NoPlayer = "Couldn't find a player to search!" -- The message sent to a player when they run /dsearch PLAYER and there isn't a player nearby.
+Lang.NoVehicle = "Couldn't find a vehicle to search!" -- The message sent to a player when they run /dsearch VEHICLE and there isn't a vehicle nearby.
+Lang.NoDrop = "Couldn't find a drop nearby!" -- The message sent to a player when they run /dsearch DROP and there isn't a drop nearby.
+Lang.StoppedSearchingDrop = "Successfully stopped searching for a drop!" -- The message sent to a player when they run /dcsearch to cancel a search.
+Lang.FoundDrop = "Successfully located the drop!" -- The message sent to a player when their dog locates a drop they are searching for.
+Lang.SearchSuccess = "Your dog found something!" -- The message sent to a player when the dog alerts on a vehicle/player when searching.
+Lang.SearchFailure = "Your dog didn't find anything!" -- The message sent to a player when the dog doesn't alert on a vehicle/player when searching.
