@@ -31,6 +31,25 @@ Shared.EnableWarning = true -- Whether or not to send a warning when a track is 
 Shared.WarningFrequency = "FIRST" -- FIRST or EVERY - whether or not to only send the notification the first time a user starts a track, or every time.\
 
 ---
+--- Searching Related Settings
+---
+-- For Vehicle searching to work, you must either use ox_inventory or use qb-inventory, or implement your own custom logic.
+-- No changes are required to ox_inventory, for qb-inventory follow the instructions in the README file.
+Shared.EnableVehicleSearching = true -- Whether or not the vehicle searching system should be enabled. (Supports ox_inventory, qb-inventory & Custom Logic) (Available in sv_open)
+Shared.EnablePlayerSearching = true -- Whether or not the player searching system should be enabled. (Supports ox_inventory, qb-inventory, ESX, & Custom logic) (Available in sv_open)
+-- For drop searching to work, you must use qb-inventory, or implement your own custom logic.
+-- Follow the instructions in the README file for setting up qb-inventory.
+Shared.EnableDropSearching = true -- Whether or not to enable searching for the closest dropped item on the ground. (Supports qb_inventory & Custom Logic) (Available in sv_open)
+Shared.DropSearchingRadius = 150.0 -- The radius from the player's coordinates to look for dropped items within.
+Shared.SearchAllDrops = true -- If true, the dog will detect all dropped items. If false, it will only detect dropped items that include an item in Shared.SearchItems.
+Shared.UseOxInventory = true -- Whether or not you use ox_inventory (Will use inventory exports instead of framework exports) (Available in sv_open)
+Shared.AlertAnimationLength = 3500 -- The length (in ms) of the alert animation after finding something during a search
+Shared.SearchItems = { -- A vehicle/person must have one of these items in/on it/them in order for the dog to alert at it/them.
+    "weapon_pistol",
+    "joint",
+}
+
+---
 --- Misc Settings
 ---
 Shared.DogPed = "a_c_shepherd" -- The dog ped model to use.
