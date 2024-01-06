@@ -54,6 +54,19 @@ Shared.SearchItems = { -- A vehicle/person must have one of these items in/on it
 ---
 Shared.DogPeds = { { model = "a_c_shepherd", name = "Police Dog" } } -- The list of dog ped options. If there are multiple peds, a menu will appear to select an option.
 Shared.AllowAi = false -- Whether or not AI peds can be a target for the dog attacking.
+Shared.DefaultKeybinds = { -- The default keybinds for when the bind is registered. All keybinds are changeable by individual players through Settings -> Keybindings -> FiveM
+    ["EXTEND_LEASH"] = "UP", -- Hold down this key to extend the length of the leash
+    ["SHORTEN_LEASH"] = "DOWN", -- Hold down this key to decrease the length of the leash
+    ["CANCEL_EMOTE"] = "X", -- Cancel your dogs current emote
+    ["SIT"] = "", -- Make your dog sit,
+    ["LIE_DOWN"] = "", -- Make your dog lie down
+    ["HOLD"] = "", -- Hold your dog between your legs
+    ["BARK"] = "", -- Make your dog bark
+    ["HEEL"] = "", -- Toggle your dogs heeling status
+    ["TP"] = "", -- Teleport your dog to you
+    ["CAR"] = "", -- Makes your dog enter/exit your car
+    ["ATTACK"] = "" -- Make your dog attack a player/ped
+}
 
 ---
 --- List of vehicles that police dog's will be able to enter
