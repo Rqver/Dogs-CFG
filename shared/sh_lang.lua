@@ -53,3 +53,9 @@ Lang.StoppedSearchingDrop = "Successfully stopped searching for a drop!" -- The 
 Lang.FoundDrop = "Successfully located the drop!" -- The message sent to a player when their dog locates a drop they are searching for.
 Lang.SearchSuccess = "Your dog found something!" -- The message sent to a player when the dog alerts on a vehicle/player when searching.
 Lang.SearchFailure = "Your dog didn't find anything!" -- The message sent to a player when the dog doesn't alert on a vehicle/player when searching.
+
+---
+--- Dog Ped Selection Menu
+---
+Lang.MenuTitle = "Dog Ped Selection" -- The title of the context menu that appears when there is more than one dog ped
+Lang.ItemDescription = "Spawn a :name:" -- The description of each item in the context menu. :name: is the `name` variable in the Shared.DogPeds section of the config.
