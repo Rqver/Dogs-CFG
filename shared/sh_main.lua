@@ -35,7 +35,7 @@ Shared.WarningFrequency = "FIRST" -- FIRST or EVERY - whether or not to only sen
 ---
 -- For Vehicle searching to work, you must either use ox_inventory or use qb-inventory, or implement your own custom logic.
 -- No changes are required to ox_inventory, for qb-inventory follow the instructions in the README file.
-Shared.EnableVehicleSearching = true -- Whether or not the vehicle searching system should be enabled. (Supports ox_inventory, qb-inventory & Custom Logic) (Available in sv_open)
+Shared.EnableVehicleSearching = true -- Whether or not the vehicle searching system should be enabled. (Available in sv_open)
 Shared.EnablePlayerSearching = true -- Whether or not the player searching system should be enabled. (Supports ox_inventory, qb-inventory, ESX, & Custom logic) (Available in sv_open)
 -- For drop searching to work, you must use qb-inventory, or implement your own custom logic.
 -- Follow the instructions in the README file for setting up qb-inventory.
@@ -52,7 +52,7 @@ Shared.SearchItems = { -- A vehicle/person must have one of these items in/on it
 ---
 --- Misc Settings
 ---
-Shared.DogPed = "a_c_shepherd" -- The dog ped model to use.
+Shared.DogPeds = { { model = "a_c_shepherd", name = "Police Dog" } } -- The list of dog ped options. If there are multiple peds, a menu will appear to select an option.
 Shared.AllowAi = false -- Whether or not AI peds can be a target for the dog attacking.
 
 ---
