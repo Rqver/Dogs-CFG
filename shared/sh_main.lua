@@ -75,6 +75,7 @@ Shared.Vehicles = {
     {
         model = "spawncode", -- Vehicle Model/Spawncode
         doors = { 'trunk' }, -- A list of doors to open on that vehicle as the dog gets in/out. Leave empty to not open any doors. Options are "trunk" (in quotes), 0 - Left front door, 1 - Right Front Door, 2 - Left Rear Door , 3 - Right Rear Door, 4 - Hood (All numbers should NOT be in quotes)
-        seat = 1 -- The seat ID the dog should get into. Drivers Seat: -1, Passenger Seat: 0, Back Drivers Side: 1, Back Passengers Side: 2
+        seat = 1, -- The seat ID the dog should get into. Drivers Seat: -1, Passenger Seat: 0, Back Drivers Side: 1, Back Passengers Side: 2
+        secondarySeat = 2 -- The seat ID of the dog should get into if the primary seat is occupied. This option is OPTIONAL and can be removed from the config without issue.
     }
 }
