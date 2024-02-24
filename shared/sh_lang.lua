@@ -59,3 +59,66 @@ Lang.SearchFailure = "Your dog didn't find anything!" -- The message sent to a p
 ---
 Lang.MenuTitle = "Dog Ped Selection" -- The title of the context menu that appears when there is more than one dog ped
 Lang.ItemDescription = "Spawn a :name:" -- The description of each item in the context menu. :name: is the `name` variable in the Shared.DogPeds section of the config.
+
+---
+--- Dog Management Menu
+---
+Lang.MainMenuTitle = "Dog Management" -- The title of the optional dog management context menu
+
+-- Dog Spawning/Deleting
+Lang.SpawnDog = "Spawn dog" -- This item is used for spawning a police dog. It only appears if you don't already have a dog. (/dog)
+Lang.SpawnDogDesc = "Spawn a police dog" -- This item is used for spawning a police dog. It only appears if you don't already have a dog. (/dog)
+Lang.RemoveDog = "Remove Dog" -- This item is used for removing a police dog. It only appears if you already have a dog. (/dog)
+Lang.RemoveDogDesc = "Remove your dog" -- This item is used for removing a police dog. It only appears if you already have a dog. (/dog)
+
+-- Heeling
+Lang.StartHeeling = "Start Heeling" -- This item is used for making the dog heel. It only appears if you aren't currently heeling. (/dheel)
+Lang.StartHeelingDesc = "Take your dog off it's lead" -- This item is used for making the dog heel. It only appears if you aren't currently heeling. (/dheel)
+Lang.StopHeeling = "Stop Heeling" -- This item is used for stopping the dog from heeling. It only appears if you are currently heeling. (/dheel)
+Lang.StopHeelingDesc = "Put your dog on it's lead" -- This item is used for stopping the dog from heeling. It only appears if you are currently heeling. (/dheel)
+
+-- Tracking
+Lang.StartTracking = "Start Tracking" -- This item is used for tracking a players server ID. It opens a context menu to input a server ID and only appears if you aren't currently tracking a player. (/dtrack)
+Lang.StartTrackingDesc = "Make your dog track a server ID" -- This item is used for tracking a players server ID. It opens a context menu to input a server ID and only appears if you aren't currently tracking a player. (/dtrack)
+Lang.StopTracking = "Stop Tracking" -- This item is used for stopping an active track. It only appears if you are currently tracking a player. (/dctrack)
+Lang.StopTrackingDesc = "Stop your dog from tracking another player" -- This item is used for stopping an active track. It only appears if you are currently tracking a player. (/dctrack)
+Lang.TrackingMenuTitle = "Tracking" -- The title of the menu used to input a server ID.
+Lang.TrackingMenuDesc = "Server ID of tracking target" -- The description of the menu used to input a server ID.
+
+-- Searching
+Lang.SearchPlayer = "Search Player" -- This item is used for searching the closest nearby player for illegal items. (/dsearch PLAYER)
+Lang.SearchPlayerDesc = "Make your dog search the closest player" -- This item is used for searching the closest nearby player for illegal items. (/dsearch PLAYER)
+Lang.SearchVehicle = "Search Vehicle" -- This item is used for searching the closest nearby vehicle for illegal items. (/dsearch VEHICLE)
+Lang.SearchVehicleDesc = "Make your dog search the closest vehicle" -- This item is used for searching the closest nearby vehicle for illegal items. (/dsearch VEHICLE)
+Lang.SearchDrop = "Start searching for drops" -- This item is used for searching for the closest drop on the ground, and only appears if you aren't currently searching for a drop. (/dsearch DROP)
+Lang.SearchDropDesc = "Make your dog search for the closest dropped item" -- This item is used for searching for the closest drop on the ground, and only appears if you aren't currently searching for a drop. (/dsearch DROP)
+Lang.StopSearchDrop = "Stop searching for drops" -- This item is used to make the dog stop searching for dropped items, and only appears if you are currently searching for a dropped item. (/dcsearch)
+Lang.StopSearchDropDesc = "Stop your dog from searching for the closest dropped item" -- This item is used to make the dog stop searching for dropped items, and only appears if you are currently searching for a dropped item. (/dcsearch)
+
+-- Vehicle
+Lang.EnterCar = "Enter Car" -- This item is used to make your dog enter the closest police car, and only works if the dog isn't currently in a car. (/dcar)
+Lang.EnterCarDesc = "Make your dog enter the closest police car" -- This item is used to make your dog enter the closest police car, and only works if the dog isn't currently in a car. (/dcar)
+Lang.ExitCar = "Exit Vehicle" -- This item is used to make the dog exit it's current vehicle, and only works if the dog is currently in a car. (/dcar)
+Lang.ExitCarDesc = "Make your dog exit the vehicle" -- This item is used to make the dog exit it's current vehicle, and only works if the dog is currently in a car. (/dcar)
+
+-- Emotes
+Lang.StartBarking = "Start Barking" -- This item is used to make the dog start barking, and only appears if the dog isn't currently barking. (/dbark)
+Lang.StartBarkingDesc = "Make your police dog bark" -- This item is used to make the dog start barking, and only appears if the dog isn't currently barking. (/dbark)
+Lang.StopBarking = "Stop Barking" -- This item is used to make the dog stop barking, and only appears if the dog is currently barking. (/dbark | /dogx)
+Lang.StopBarkingDesc = "Stop your dog from barking" -- This item is used to make the dog stop barking, and only appears if the dog is currently barking. (/dbark | /dogx)
+Lang.StartHolding = "Start Holding" -- This item is used to hold the dog between your legs, and only appears if you aren't currently holding the dog. (/dhold)
+Lang.StartHoldingDesc = "Hold your dog between your knees"  -- This item is used to hold the dog between your legs, and only appears if you aren't currently holding the dog. (/dhold)
+Lang.StopHolding = "Stop Holding" -- This item is used to stop holding the dog, and only appears if you are currently holding the dog. (/dhold | /dogx)
+Lang.StopHoldingDesc = "Stop holding your dog" -- This item is used to stop holding the dog, and only appears if you are currently holding the dog. (/dhold | /dogx)
+Lang.StartSitting = "Start Sitting" -- This item is used to make the dog start sitting, and only appears if the dog isn't currently sitting. (/dsit)
+Lang.StartSittingDesc = "Make your dog sit down" -- This item is used to make the dog start sitting, and only appears if the dog isn't currently sitting. (/dsit)
+Lang.StopSitting = "Stop Sitting" -- This item is used to make the dog stop sitting, and only appears if the dog is currently sitting. (/dsit | /dogx)
+Lang.StopSittingDesc = "Make your dog stand up" -- This item is used to make the dog stop sitting, and only appears if the dog is currently sitting. (/dsit | /dogx)
+Lang.StartLying = "Start Lying Down" -- This item is used to make the dog start lying down, and only appears if the dog isn't currently lying down. (/dlay)
+Lang.StartLyingDesc = "Make your dog lie down" -- This item is used to make the dog start lying down, and only appears if the dog isn't currently lying down. (/dlay)
+Lang.StopLying = "Stop Lying Down" -- This item is used to make the dog stop lying down, and only appears if the dog is currently lying down. (/dlay | /dogx)
+Lang.StopLyingDesc = "Make your dog stand up" -- This item is used to make the dog stop lying down, and only appears if the dog is currently lying down. (/dlay | /dogx)
+
+-- TP
+Lang.DTP = "Teleport Dog" -- This item is used to teleport the dog to yourself.
+Lang.DTPDesc = "Teleport your dog to you" -- This item is used to teleport the dog to yourself.
