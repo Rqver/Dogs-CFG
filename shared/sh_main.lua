@@ -55,6 +55,7 @@ Shared.SearchItems = { -- A vehicle/person must have one of these items in/on it
 Shared.DogPeds = { { model = "a_c_shepherd", name = "Police Dog" } } -- The list of dog ped options. If there are multiple peds, a menu will appear to select an option.
 Shared.AllowAi = false -- Whether or not AI peds can be a target for the dog attacking.
 Shared.BarkingAnimation = "A" -- Either 'A' or 'B'. A is a more aggressive animation but doesn't play any audio. B is a less aggressive animation but plays a barking sound track.
+Shared.DogMenu = "dmenu" -- The name of the command to open the dog management menu. Make the string empty to disable the command.
 Shared.DefaultKeybinds = { -- The default keybinds for when the bind is registered. All keybinds are changeable by individual players through Settings -> Keybindings -> FiveM
     ["EXTEND_LEASH"] = "UP", -- Hold down this key to extend the length of the leash
     ["SHORTEN_LEASH"] = "DOWN", -- Hold down this key to decrease the length of the leash
@@ -66,7 +67,8 @@ Shared.DefaultKeybinds = { -- The default keybinds for when the bind is register
     ["HEEL"] = "", -- Toggle your dogs heeling status
     ["TP"] = "", -- Teleport your dog to you
     ["CAR"] = "", -- Makes your dog enter/exit your car
-    ["ATTACK"] = "" -- Make your dog attack a player/ped
+    ["ATTACK"] = "", -- Make your dog attack a player/ped
+    ["MENU"] = "", -- Opens the dog management menu (Shared.DogMenu)
 }
 
 ---
