@@ -40,6 +40,12 @@ Lang.NoScent = "Your dog failed to find a scent!" -- The message sent to a playe
 Lang.FoundScent = "Your dog found a scent!\nRun /dctrack at any time to cancel the track." -- The message sent to a player when the target accepts the tracking request.
 Lang.StoppedTracking = "Successfully stopped tracking!" -- The message sent to a player when they cancel a track.
 Lang.DistanceWarning = "If the dog doesn\'t immediately start running, the offender is too far away.\nThis is a restriction of GTA - Get closer to the civ or get the civ to come closer." -- The message sent to a player when they start tracking a player.
+Lang.NoTrackingTarget = "Please specify if you are tracking the DRIVER or PASSENGER!" -- The message sent to a player when they run /dscent without specifying to identify the last driver or last passenger
+Lang.NoCarScent = "Your dog failed to find a scent for that seat!" -- The message sent to a player when they run /dscent and a player hasn't been in that seat.
+Lang.DriverScentSuccessTitle = "Driver's Scent: :id:" -- The title of the success embed when an ID is found. :id: is the server ID of the target.
+Lang.PassengerScentSuccessTitle = "Driver's Scent: :id:" -- The title of the success embed when an ID is found. :id: is the server ID of the target.
+Lang.ScentSuccessDesc = "Would you like to start tracking?" -- The description of the success embed when an ID is found.
+
 
 ---
 --- Searching Notifications
