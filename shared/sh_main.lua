@@ -28,7 +28,9 @@ Shared.NotifyType = "ox_lib" -- ox_lib (Standard Notifications), chat (messages 
 Shared.EnableTracking = true -- Whether or not the tracking system should be enabled.
 Shared.EnableTrackingMenu = true -- Whether or not to send a prompt to the tracking target asking them whether or not they can be tracked.
 Shared.EnableWarning = true -- Whether or not to send a warning when a track is started advising of GTA restrictions in terms of tracking distance. (Tracks more than 400m don't work)
-Shared.WarningFrequency = "FIRST" -- FIRST or EVERY - whether or not to only send the notification the first time a user starts a track, or every time.\
+Shared.WarningFrequency = "FIRST" -- FIRST or EVERY - whether or not to only send the notification the first time a user starts a track, or every time.
+Shared.EnableFindingID = true -- Whether or not to enable the /dscent <driver|passenger> command. This allows you to find the ID of the last person in the driver/passenger seat to start a track with.
+
 
 ---
 --- Searching Related Settings
