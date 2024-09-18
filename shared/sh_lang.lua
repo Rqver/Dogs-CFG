@@ -40,12 +40,11 @@ Lang.NoScent = "Your dog failed to find a scent!" -- The message sent to a playe
 Lang.FoundScent = "Your dog found a scent!\nRun /dctrack at any time to cancel the track." -- The message sent to a player when the target accepts the tracking request.
 Lang.StoppedTracking = "Successfully stopped tracking!" -- The message sent to a player when they cancel a track.
 Lang.DistanceWarning = "If the dog doesn\'t immediately start running, the offender is too far away.\nThis is a restriction of GTA - Get closer to the civ or get the civ to come closer." -- The message sent to a player when they start tracking a player.
-Lang.NoTrackingTarget = "Please specify if you are tracking the DRIVER or PASSENGER!" -- The message sent to a player when they run /dscent without specifying to identify the last driver or last passenger
-Lang.NoCarScent = "Your dog failed to find a scent for that seat!" -- The message sent to a player when they run /dscent and a player hasn't been in that seat.
-Lang.DriverScentSuccessTitle = "Driver's Scent: :id:" -- The title of the success embed when an ID is found. :id: is the server ID of the target.
-Lang.PassengerScentSuccessTitle = "Driver's Scent: :id:" -- The title of the success embed when an ID is found. :id: is the server ID of the target.
-Lang.ScentSuccessDesc = "Would you like to start tracking?" -- The description of the success embed when an ID is found.
-
+Lang.NoTrackingTarget = "Please specify if you are tracking the DRIVER or PASSENGER!"
+Lang.NoCarScent = "Your dog failed to find a scent for that seat!"
+Lang.DriverScentSuccessTitle = "Driver's Scent: :id:"
+Lang.PassengerScentSuccessTitle = "Driver's Scent: :id:"
+Lang.ScentSuccessDesc = "Would you like to start tracking?"
 
 ---
 --- Searching Notifications
@@ -59,6 +58,12 @@ Lang.StoppedSearchingDrop = "Successfully stopped searching for a drop!" -- The 
 Lang.FoundDrop = "Successfully located the drop!" -- The message sent to a player when their dog locates a drop they are searching for.
 Lang.SearchSuccess = "Your dog found something!" -- The message sent to a player when the dog alerts on a vehicle/player when searching.
 Lang.SearchFailure = "Your dog didn't find anything!" -- The message sent to a player when the dog doesn't alert on a vehicle/player when searching.
+
+---
+--- GPS Language
+---
+Lang.GPSEnabled = "GPS Blip Enabled!"
+Lang.GPSDisabled = "GPS Blip Disabled!"
 
 ---
 --- Dog Ped Selection Menu
@@ -128,3 +133,9 @@ Lang.StopLyingDesc = "Make your dog stand up" -- This item is used to make the d
 -- TP
 Lang.DTP = "Teleport Dog" -- This item is used to teleport the dog to yourself.
 Lang.DTPDesc = "Teleport your dog to you" -- This item is used to teleport the dog to yourself.
+
+-- GPS
+Lang.EnableGPS = "Enable GPS Blip" -- This item is used to enable the gps blip to your dog. (/dgps)
+Lang.EnableGPSDesc = "Enable a blip that displays your dogs location" -- This item is used to enable the gps blip to your dog. (/dgps)
+Lang.DisableGPS = "Disable GPS Blip" -- This item is used to disable the gps blip to your dog. (/dgps)
+Lang.DisableGPSDesc = "Disable your dog's GPS blip" -- This item is used to disable the gps blip to your dog. (/dgps)
