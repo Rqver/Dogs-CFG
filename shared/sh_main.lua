@@ -118,7 +118,7 @@ Shared.DefaultKeybinds = { -- The default keybinds for when the bind is register
     ["CAR"] = "", -- Makes your dog enter/exit your car
     ["ATTACK"] = "", -- Make your dog attack a player/ped
     ["MENU"] = "", -- Opens the dog management menu (Shared.DogMenu)
-    ["GPS"] = "",
+    ["GPS"] = "", -- Toggle the GPS Blip to your dog (if Shared.EnableGPS is true)
 }
 
 ---
